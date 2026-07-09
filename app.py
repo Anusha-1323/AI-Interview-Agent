@@ -64,3 +64,12 @@ if st.session_state.questions:
 
         st.write("Transcript saved to:")
         st.code(file)
+
+# Download transcript
+        with open(file, "rb") as f:
+            st.download_button(
+                label="📥 Download Transcript",
+                data=f,
+                file_name="interview_transcript.json",
+                mime="application/json"
+            )
