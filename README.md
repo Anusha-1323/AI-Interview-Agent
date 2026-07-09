@@ -250,3 +250,16 @@ Junior AI Research Associate
 # License
 
 This project is created for educational and evaluation purposes as part of the Rooman Technologies AI Agent Challenge.
+
+---
+
+## Screenshots
+
+### Home Page
+![Home](screenshots/home.png)
+
+### Generated Questions
+![Questions](screenshots/questions.png)
+
+### Evaluation
+![Evaluation](screenshots/evaluation.png)
