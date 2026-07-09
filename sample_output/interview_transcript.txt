@@ -1,0 +1,41 @@
+AI Interview Agent - Sample Transcript
+
+Role: Python Developer
+
+Interview Questions
+
+1. Explain the difference between a list and a tuple in Python.
+2. What is object-oriented programming?
+3. Explain exception handling in Python.
+4. What is inheritance?
+5. What are Python decorators?
+
+Candidate Answers
+
+1. Lists are mutable whereas tuples are immutable.
+2. OOP is a programming paradigm based on classes and objects.
+3. Exception handling uses try, except and finally blocks.
+4. Inheritance allows one class to inherit properties from another.
+5. Decorators modify the behavior of a function without changing its code.
+
+Evaluation
+
+Question 1: 8/10
+Question 2: 9/10
+Question 3: 7/10
+Question 4: 8/10
+Question 5: 8/10
+
+Overall Score: 40/50 (80%)
+
+Strengths
+- Good understanding of Python fundamentals
+- Clear explanations
+- Logical answers
+
+Areas for Improvement
+- Provide more real-world examples
+- Improve depth of explanation for decorators
+
+Recommendation
+Shortlisted for the next interview round.

@@ -1,10 +1,15 @@
 import streamlit as st
+from database import save_transcript
 from interview import generate_questions
 from evaluator import evaluate_interview
 
 st.set_page_config(page_title="AI Interview Agent")
 
 st.title("🎯 AI Interview Agent")
+
+# Initialize session state
+if "questions" not in st.session_state:
+    st.session_state.questions = ""
 
 role = st.text_input("Enter the job role")
 
@@ -16,10 +21,9 @@ if st.button("Generate Questions"):
         st.warning("Please enter a job role.")
 
 # Display Questions
-if "questions" in st.session_state:
+if st.session_state.questions:
 
     st.subheader("Interview Questions")
-
     st.write(st.session_state.questions)
 
     st.subheader("Candidate Answers")
@@ -46,6 +50,17 @@ if "questions" in st.session_state:
             answers
         )
 
-        st.subheader("Interview Evaluation")
+        file = save_transcript(
+            role,
+            st.session_state.questions,
+            answers,
+            result
+        )
 
+        st.subheader("Interview Evaluation")
         st.write(result)
+
+        st.success("Interview saved successfully!")
+
+        st.write("Transcript saved to:")
+        st.code(file)
