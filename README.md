@@ -256,10 +256,22 @@ This project is created for educational and evaluation purposes as part of the R
 ## Screenshots
 
 ### Home Page
-![Home](screenshots/home.png)
+![Home](screenshots/Homepage.png)
 
 ### Generated Questions
-![Questions](screenshots/questions.png)
+![Generated Questions](screenshots/GeneratedQuestions.png)
 
-### Evaluation
-![Evaluation](screenshots/evaluation.png)
+### Good Evaluation
+![Good Evaluation](screenshots/GoodEvaluation.png)
+
+### Poor Evaluation
+![Poor Evaluation](screenshots/PoorEvaluation.png)
+
+### Overall Good Evaluation
+![Overall Good Evaluation](screenshots/OverallGoodEval.png)
+
+### Overall Poor Evaluation
+![Overall Poor Evaluation](screenshots/OverallPoorEval.png)
+
+### Transcript Download
+![Transcript Download](screenshots/transcriptDownload.png)
